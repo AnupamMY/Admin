@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav .logo{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 250, 250);
+    padding: 0px 50px;
+    width: 100%;
+    height: 50px;
+}
+nav .list-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+    height: 50px;
+    margin-left: 200px;
+}
+nav .list-nav ul li a{
+    text-decoration: none;
+   
+    color: rgb(56, 56, 56);
+    font-size: 20px;
+    font-weight: 400;
+}
+.list-nav .dropdown-products {
+    display: none;
+    position: absolute;
+    
+    margin-left: -40px;
+    font-size: 5px;
+  }
+.menu-products:hover .dropdown-products {
+    display: block;
+    position: fixed;
+    font-size: 12px;
+    background-color: rgb(255, 250, 250);
+    padding-top: 2px;
+    height: 100px;
+    width: 10%;
+  }
+.breadcrumb{
+    display: flex;
+    gap: 20px;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+    font-size: 20px;
+    font-weight: 400;
+}
+.page ul li{
+    text-decoration: none;
+    margin-left: -10px;
+}
+.page span{
+    height: 10%;
+}
+ul{
+    list-style-type: none;
+}
+.top-bread{
+   display: flex;
+   justify-content: space-between;
+}
+.table-conatiner{
+    margin:  auto 100px;
+}
+p{
+    color: red;
+}
